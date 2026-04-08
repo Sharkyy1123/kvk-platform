@@ -77,7 +77,7 @@ export default function AboutPage() {
               Government Backed Initiative
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold font-[family-name:var(--font-display)] text-white tracking-tight leading-tight mb-6">
-              Building India's Most{" "}
+              Building India&apos;s Most{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-forest-300 to-forest-400">
                 Trusted
               </span>{" "}
