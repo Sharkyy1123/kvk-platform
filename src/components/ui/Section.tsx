@@ -19,7 +19,7 @@ export function Section({ children, className, id }: SectionProps) {
       id={id}
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-      transition={{ duration: 0.7, ease: "easeOut" }}
+      transition={{ duration: 0.7, ease: "easeOut" as const }}
       className={className}
     >
       {children}
