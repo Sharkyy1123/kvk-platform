@@ -43,23 +43,6 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-## 📦 Deployment on Vercel
-
-The platform is completely production-ready and optimized for Vercel deployment.
-
-1. Push your repository to GitHub.
-2. Go to [Vercel](https://vercel.com/) and create a new project.
-3. Import your GitHub repository.
-4. Expand the **Environment Variables** section and add all required keys from your `.env` file, mainly:
-   - `DATABASE_URL` (You can use Supabase, Vercel Postgres, or Neon for a hosted PostgreSQL database)
-   - `AUTH_SECRET` (Run `openssl rand -base64 32` to generate one)
-5. Keep the default Build and Development Settings (`npm run build` will trigger `prisma generate` automatically via `postinstall`).
-6. Click **Deploy**.
-
-## 🎨 Design Philosophy
-- **Authentic & Human-made:** Avoids standard web-app grids by incorporating parallax, depth (shadows/glassmorphism), and asymmetrical layouts.
-- **Micro-Interactions:** Subtle delays and spring animations via Framer Motion. 
-- **Green & Earthy Palette:** Rich greens and warm earthly tones signifying trust, nature, and agriculture. 
 
 ## 🏗️ Project Structure
 - `src/app/` - Next.js App Router Pages 
